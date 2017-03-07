@@ -12,5 +12,4 @@ int main(int argc, char const *argv[]) {
     std::cout << "Value Stored at Last Index: " << *(ptr + 2) << '\n';
     std::cout << "Value Stored at Next Index: " << *(ptr + 3) << '\n';
     return 0;
-
 }
