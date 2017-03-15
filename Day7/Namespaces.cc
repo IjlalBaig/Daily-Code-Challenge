@@ -9,10 +9,12 @@ namespace CV{
     std::string name = "Computer Vision";
     int weight = 24;
 }
+
 namespace{
     std::string name = "Nameless";
     int weight = 199;
 }
+
 int main(int argc, char const *argv[]) {
     std::cout << "ML namespace: " << ML::name << '\n';
     std::cout << "ML namespace: " << ML::weight[1] << '\n';
