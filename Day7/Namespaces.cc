@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+
 namespace ML{
     std::string name = "Machine Learning";
     float weight[5] = {1.0, 2.0, 3.0, 4.0, 5.0};
@@ -24,6 +25,5 @@ int main(int argc, char const *argv[]) {
 
     std::cout << "empty namespace: " << name << '\n';
     std::cout << "empty namespace: " << weight << '\n';
-
     return 0;
 }
